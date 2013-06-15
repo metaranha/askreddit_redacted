@@ -1,0 +1,40 @@
+/* Changes Deleted Comment Text To Redacted Bar
+--------------------------------*/
+.grayed .md p { display: none; }
+
+.usertext.grayed .usertext-body:after {
+    content: url(%%redacted1-vectorized%%);
+}
+
+.grayed[id$='0'] .md:after, .grayed[id$='1'] .md:after, .grayed[id$='2'] .md:after, .grayed[id$='3'] .md:after {
+    content: url(%%redacted1-vectorized%%);
+}
+.grayed[id$='A'] .md:after, .grayed[id$='K'] .md:after, .grayed[id$='9'] .md:after, .grayed[id$='7'] .md:after {
+    content: url(%%6%%);
+}
+.grayed[id$='B'] .md:after, .grayed[id$='D'] .md:after, .grayed[id$='3'] .md:after, .grayed[id$='5'] .md:after {
+    content: url(%%redacted3-vectorized%%);
+}
+.grayed[id$='M'] .md:after, .grayed[id$='N'] .md:after, .grayed[id$='6'] .md:after, .grayed[id$='8'] .md:after {
+    content: url(%%redacted4-vectorized%%);
+}
+.grayed[id$='F'] .md:after, .grayed[id$='8'] .md:after, .grayed[id$='Q'] .md:after, .grayed[id$='S'] .md:after {
+    content: url(%%redacted5-vectorized%%);
+}
+.grayed[id$='H'] .md:after, .grayed[id$='I'] .md:after, .grayed[id$='R'] .md:after, .grayed[id$='J'] .md:after {
+    content: url(%%redacted8-vectorized%%);
+}
+.grayed[id$='4'] .md:after, .grayed[id$='C'] .md:after, .grayed[id$='P'] .md:after, .grayed[id$='U'] .md:after {
+    content: url(%%redacted9-vectorized%%);
+}
+/* Changes Deleted Username To Redacted Bar 
+--------------------------------*/
+p.tagline em {
+    visibility:hidden; 
+    font-size:0;
+}
+p.tagline em:after {
+    visibility:visible; 
+    font-size: 10px; 
+    content: url(%%redactedname1%%);
+}
